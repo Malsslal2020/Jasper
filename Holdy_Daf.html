@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)https://apex.oracle.com/pls/apex/r/mbank/holdy-daf-new/home?session=6349469537223 -->
+<html class="u-RTL page-1 app-HOLDY-DAF-NEW" lang="en" dir="rtl" style="--js-sticky-top: 48px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  
+  <title>Holdy_Daf</title>
+  <!--<base href="/pls/apex/">--><base href=".">
+<link rel="stylesheet" href="./Holdy_Daf_files/Core.min.css" type="text/css">
+<link rel="stylesheet" href="./Holdy_Daf_files/Theme-Standard.min.css" type="text/css">
+
+  <link rel="stylesheet" href="./Holdy_Daf_files/font-apex.min.css" type="text/css">
+<link rel="stylesheet" href="./Holdy_Daf_files/Core.min(1).css" type="text/css">
+
+  
+  <link rel="stylesheet" href="./Holdy_Daf_files/Vita.min.css" type="text/css">
+
+  
+  <style type="text/css">
+.apex-item-textarea
+{
+    border-bottom: 2px solid;
+    border-radius: 10px 30px 10px 30px;
+      font-size: 20px;
+      color: rgb(0, 21, 255);
+      
+}
+.apex-item-text
+{
+    border-bottom: 1px solid;
+    border-radius: 20px 20px 20px 20px;
+      font-size:20px;
+      color: rgba(0, 38, 255, 0.983);
+       text-align: center;
+   box-shadow: 5px 5px rgb(178, 178, 236);
+      
+}
+#P1_KIND_HOLDAY
+{
+     border-bottom: 2px solid;
+    border-radius: 20px 20px 20px 20px;
+      font-size:20px;
+      color: rgba(0, 38, 255, 0.983);
+       text-align: right;
+   box-shadow: 5px 5px rgb(178, 178, 236);
+}
+#P1_SUB
+{
+    border-bottom: 2px solid;
+    border-radius: 20px 20px 20px 20px;
+      font-size:18px;
+      color: rgba(0, 38, 255, 0.983);
+       text-align: right;
+   box-shadow: 5px 5px rgb(178, 178, 236);
+}
+
+
+#P1_CLOCK
+{
+    border-bottom: 2px solid;
+    border-radius: 20px 20px 20px 20px;
+      font-size:18px;
+      color: rgba(0, 38, 255, 0.983);
+       text-align: right;
+   box-shadow: 5px 5px rgb(178, 178, 236);
+}
+
+#P1_EMP_ID
+{
+    border-bottom: 2px solid;
+    border-radius: 20px 20px 20px 20px;
+      font-size:18px;
+      color: rgba(0, 38, 255, 0.983);
+       text-align: right;
+   box-shadow: 5px 5px rgb(178, 178, 236);
+
+
+}
+
+
+
+
+.display_only
+{
+    border-bottom: 2px solid;
+    border-radius: 20px 20px 20px 20px;
+      font-size:30px;
+      color: rgba(255, 0, 0, 0.983);
+       text-align: center;
+   box-shadow: 5px 5px rgb(178, 178, 236);
+}
+.t-Region-title
+{
+    border-bottom: 2px solid;
+      
+   }
+.t-Button
+
+{
+         font-size: 20px;
+      
+   }
+
+#B22753385259744571849
+{
+     font-size: 20px;
+       
+        background-color: red;
+      
+   }
+#B34372901705675382202
+{
+     font-size: 20px;
+       
+        background-color: greenyellow;
+      
+   }
+   
+</style>
+
+  <link rel="apple-touch-icon" href="https://apex.oracle.com/pls/apex/r/mbank/253158/files/static/v9/icons/app-icon-192.png"><link rel="icon" href="https://apex.oracle.com/pls/apex/r/mbank/253158/files/static/v9/icons/app-icon-32.png">
+  
+
+<meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="-1"><meta http-equiv="Cache-Control" content="no-cache"><meta name="theme-color" content="#000000">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="برنامج الاجازات">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="https://apex.oracle.com/pls/apex/r/mbank/holdy-daf-new/manifest.json?v=23.1.3-15486029284926&amp;lang=en" crossorigin="use-credentials">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="t-PageBody t-PageBody--hideLeft t-PageBody--hideActions t-PageTemplate--standard apex-side-nav apex-icons-fontapex apex-theme-vita js-navCollapsed--hidden js-navCollapsed t-PageBody--leftNav" dir="rtl" id="t_PageBody" style=""><div id="apex_js_temp_drop" style="display: none;"></div>
+<a href="https://apex.oracle.com/pls/apex/#main" id="t_Body_skipToContent">Skip to Main Content</a>
+<form action="https://apex.oracle.com/pls/apex/wwv_flow.accept?p_context=holdy-daf-new/home/6349469537223" method="post" name="wwv_flow" id="wwvFlowForm" data-oj-binding-provider="none" novalidate="" autocomplete="off">
+<input type="hidden" name="p_flow_id" value="253158" id="pFlowId"><input type="hidden" name="p_flow_step_id" value="1" id="pFlowStepId"><input type="hidden" name="p_instance" value="6349469537223" id="pInstance"><input type="hidden" name="p_page_submission_id" value="311699504922029592734629661441495745806" id="pPageSubmissionId"><input type="hidden" name="p_request" value="" id="pRequest"><input type="hidden" name="p_reload_on_submit" value="S" id="pReloadOnSubmit"><input type="hidden" value="holdy-daf-new/home/6349469537223" id="pContext"><input type="hidden" value="311699504922029592734629661441495745806" id="pSalt">
+<header class="t-Header" id="t_Header" role="banner">
+  
+  <div class="t-Header-branding">
+    <div class="t-Header-controls">
+      <button class="t-Button t-Button--icon t-Button--header t-Button--headerTree" aria-label="Main Navigation" title="Main Navigation" id="t_Button_navControl" type="button" aria-controls="t_TreeNav" aria-expanded="false"><span class="t-Header-controlsIcon" aria-hidden="true"></span></button>
+    </div>
+    <div class="t-Header-logo">
+      <a href="https://apex.oracle.com/pls/apex/r/mbank/holdy-daf-new/home?session=6349469537223" class="t-Header-logo-link"><span class="apex-logo-text">برنامج الاجازات</span></a>
+      
+    </div>
+    <div class="t-Header-navBar">
+      <div class="t-Header-navBar--start"></div>
+      <div class="t-Header-navBar--center"><ul class="t-NavigationBar lto47313374600782658340_0" id="47313374600782658340"><li class="t-NavigationBar-item a-pwaInstall">
+  <a class="t-Button t-Button--icon t-Button--header t-Button--navBar" href="https://apex.oracle.com/pls/apex/#action$a-pwa-install" title="" target="" style="display: none;">
+    <span class="t-Icon fa fa-cloud-download" aria-hidden="true"></span><span class="t-Button-label">Install App</span><span class="t-Button-badge"></span>
+  </a>
+</li><li class="t-NavigationBar-item has-username">
+  <button class="t-Button t-Button--icon t-Button t-Button--header t-Button--navBar" type="button" id="L47313386040863658548" data-menu="menu_L47313386040863658548" title="" aria-haspopup="menu">
+      <span class="t-Icon fa fa-user" aria-hidden="true"></span><span class="t-Button-label">1</span><span class="t-Button-badge"></span><span class="a-Icon icon-down-arrow" aria-hidden="true"></span>
+  </button></li></ul></div>
+      <div class="t-Header-navBar--end"></div>
+    </div>
+  </div>
+  <div class="t-Header-nav"></div>
+</header>
+<div class="t-Body">
+  <div class="t-Body-nav" id="t_Body_nav" role="navigation" aria-label="Main Navigation">
+  <div class="a-TreeView t-TreeNav js-defaultCollapsed js-defaultCollapsed t-TreeNav--styleA lto47313174328510657822_0 u-RTL" id="t_TreeNav" data-id="1_tree" aria-label="Main Navigation" role="tree" aria-hidden="true" style="visibility: inherit;"><ul role="group"><li id="t_TreeNav_0" role="none" class="a-TreeView-node a-TreeView-node--leaf a-TreeView-node--topLevel"><div role="none" class="a-TreeView-row is-selected is-current--top"></div><div role="none" class="a-TreeView-content is-selected is-current--top"><span class="fa fa fa-home"></span><a tabindex="0" role="treeitem" class="a-TreeView-label is-current" href="https://apex.oracle.com/pls/apex/r/mbank/holdy-daf-new/home?session=6349469537223" aria-level="1" aria-selected="true" aria-current="true">الصفحة الرئيسية </a></div></li><li id="t_TreeNav_1" role="none" class="a-TreeView-node a-TreeView-node--leaf a-TreeView-node--topLevel"><div role="none" class="a-TreeView-row"></div><div role="none" class="a-TreeView-content"><span class="fa fa fa-table"></span><a tabindex="-1" role="treeitem" class="a-TreeView-label" href="https://apex.oracle.com/pls/apex/r/mbank/holdy-daf-new/repactiverep?session=6349469537223" aria-level="1" aria-selected="false">RepActiveRep</a></div></li></ul></div>
+</div>
+<script>
+(() => {
+  const pref = "ORA_WWV_apex.toggleCore.nav.253158.preferenceForExpanded",
+        nav  = document.getElementById('t_TreeNav').classList,
+        body = document.getElementById('t_PageBody');
+  if ( !sessionStorage.getItem( pref ) ) { sessionStorage.setItem( pref, !nav.contains('js-defaultCollapsed') ); }
+  if ( nav.contains('js-navCollapsed--default') ) {
+      body?.classList.add('js-navCollapsed--icons');
+      if ( sessionStorage.getItem( pref ) === "false" ) { body?.classList.add('js-navCollapsed'); }
+  }
+  if ( sessionStorage.getItem( pref ) === "true" && window.matchMedia("(min-width: " + getComputedStyle(document.documentElement).getPropertyValue("--js-mq-lg") + ")").matches) { body?.classList.add('js-navExpanded'); }
+  for (const label of document.querySelectorAll(".a-TreeView .a-TreeView-label")) {
+      label.textContent = label.textContent.replaceAll(/\[(.*?)\]/ig, '');
+  }
+})();
+</script>
+  <div class="t-Body-main">
+    <div class="t-Body-title" id="t_Body_title"><div class="t-HeroRegion lto47313385372252658526_0" id="R47313385372252658526" role="region" aria-labelledby="R47313385372252658526_heading">
+  <div class="t-HeroRegion-top">
+    <div class="t-HeroRegion-wrap">
+      <div class="t-HeroRegion-col t-HeroRegion-col--left"><img class="t-HeroRegion-icon" src="./Holdy_Daf_files/app-icon-512.png" alt=""><span class="t-HeroRegion-icon t-Icon "></span></div>
+      <div class="t-HeroRegion-col t-HeroRegion-col--content">
+        <h1 id="R47313385372252658526_heading" class="t-HeroRegion-title" data-apex-heading="">الصفحة الرئيسية </h1>
+        
+      </div>
+      <div class="t-HeroRegion-col t-HeroRegion-col--right"><div class="t-HeroRegion-form"></div><div class="t-HeroRegion-buttons"></div></div>
+    </div>
+  </div>
+  <div class="t-HeroRegion-bottom"></div>
+</div>
+</div>
+    <div class="t-Body-content" id="t_Body_content"><div id="t_Body_content_offset"></div>
+      <main id="main" class="t-Body-mainContent">
+        <span id="APEX_SUCCESS_MESSAGE" data-template-id="47313201903784657965_S" class="apex-page-success u-hidden"></span><span id="APEX_ERROR_MESSAGE" data-template-id="47313201903784657965_E" class="apex-page-error u-hidden"></span>
+        <div class="t-Body-fullContent"></div>
+        <div class="t-Body-contentInner"><div class="container">
+<div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end"><div class="t-Region t-Region--scrollBody lto47312485487334252215_0" id="R47312485487334252215" role="region" aria-label="شاشة الادخال ">
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    <h2 class="t-Region-title" id="R47312485487334252215_heading" data-apex-heading="">شاشة الادخال </h2>
+  </div>
+  <div class="t-Region-headerItems t-Region-headerItems--buttons"><span class="js-maximizeButtonContainer"></span></div>
+ </div>
+ <div class="t-Region-bodyWrap">
+   <div class="t-Region-buttons t-Region-buttons--top">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+   <div class="t-Region-body">
+     <div class="container">
+<div class="row ">
+<div class="col col-2  col-start"><button class="t-Button t-Button--icon t-Button--large t-Button--warning t-Button--simple t-Button--iconLeft t-Button--hoverIconSpin lto47312486880358252229_0 t-Button--hot" onclick="void(0);" type="button" id="B47312486880358252229"><span class="t-Icon t-Icon--left fa fa-search" aria-hidden="true"></span><span class="t-Button-label">بحث</span><span class="t-Icon t-Icon--right fa fa-search" aria-hidden="true"></span></button></div><div class="col col-3  "><div class="t-Form-fieldContainer t-Form-fieldContainer--floatingLabel lto47312485625042252216_0 apex-item-wrapper apex-item-wrapper--select-list js-show-label" id="P1_EMP_ID_CONTAINER"><div class="t-Form-labelContainer">
+<label for="P1_EMP_ID" id="P1_EMP_ID_LABEL" class="t-Form-label">السجل</label>
+</div><div class="t-Form-inputContainer"><div class="t-Form-itemWrapper"><select id="P1_EMP_ID" name="P1_EMP_ID" class="selectlist apex-item-select" data-native-menu="false" size="1"><option value="" selected="selected"></option>
+<option value="288358">288358</option>
+<option value="177551">177551</option>
+<option value="180362">180362</option>
+<option value="295369">295369</option>
+<option value="363471">363471</option>
+<option value="400762">400762</option>
+<option value="285317">285317</option>
+</select></div><span id="P1_EMP_ID_error_placeholder" class="a-Form-error" data-template-id="47313346908350658223_ET"></span></div></div></div><div class="col col-2 apex-col-auto "><div class="t-Form-fieldContainer t-Form-fieldContainer--floatingLabel lto47312487476178252235_0 apex-item-wrapper apex-item-wrapper--display-only" id="P1_NEW_CONTAINER"><div class="t-Form-labelContainer">
+<label for="P1_NEW" id="P1_NEW_LABEL" class="t-Form-label"></label>
+</div><div class="t-Form-inputContainer"><div class="t-Form-itemWrapper"><input type="hidden" id="P1_NEW" name="P1_NEW" value=""><input type="hidden" data-for="P1_NEW" value="cfxADtVe51wld466b6-iUSEqvGaA0SMkv8yo1VFcvGCUtZ0DP_O8UkJ_qfLKidgwEijzQSLJ7OFbtCzdvPL3tQ"><span id="P1_NEW_DISPLAY" class="display_only apex-item-display-only" data-escape="true"></span></div><span id="P1_NEW_error_placeholder" class="a-Form-error" data-template-id="47313346908350658223_ET"></span></div></div></div><div class="col col-2  "><button class="t-Button t-Button--icon t-Button--large t-Button--success t-Button--simple t-Button--iconLeft t-Button--hoverIconSpin lto47312489251965252252_0 t-Button--hot" onclick="apex.submit({request:&#39;BTSave&#39;,validate:true});" type="button" id="B47312489251965252252"><span class="t-Icon t-Icon--left fa fa-save" aria-hidden="true"></span><span class="t-Button-label">حفظ</span><span class="t-Icon t-Icon--right fa fa-save" aria-hidden="true"></span></button></div>
+</div>
+</div>
+     <div class="container">
+<div class="row ">
+<div class="col col-2  col-start"><span class="apex-grid-nbsp">&nbsp;</span></div><div class="col col-3  "><div class="t-Form-fieldContainer t-Form-fieldContainer--floatingLabel lto47312485671616252217_0 apex-item-wrapper apex-item-wrapper--has-initial-value apex-item-wrapper--text-field js-show-label" id="P1_EMP_NAME_CONTAINER"><div class="t-Form-labelContainer">
+<label for="P1_EMP_NAME" id="P1_EMP_NAME_LABEL" class="t-Form-label">الاسم</label>
+</div><div class="t-Form-inputContainer"><div class="t-Form-itemWrapper"><input type="text" id="P1_EMP_NAME" name="P1_EMP_NAME" class="text_field apex-item-text" value="لا يوجد هذا السجل الرجاء التأكد" size="30"></div><span id="P1_EMP_NAME_error_placeholder" class="a-Form-error" data-template-id="47313346908350658223_ET"></span></div></div></div><div class="col col-1  "><span class="apex-grid-nbsp">&nbsp;</span></div><div class="col col-3  "><div class="t-Form-fieldContainer t-Form-fieldContainer--floatingLabel lto47312485844728252218_0 apex-item-wrapper apex-item-wrapper--text-field js-show-label" id="P1_JOB_CONTAINER"><div class="t-Form-labelContainer">
+<label for="P1_JOB" id="P1_JOB_LABEL" class="t-Form-label">الوظيفة</label>
+</div><div class="t-Form-inputContainer"><div class="t-Form-itemWrapper"><input type="text" id="P1_JOB" name="P1_JOB" class="text_field apex-item-text" value="" size="30"></div><span id="P1_JOB_error_placeholder" class="a-Form-error" data-template-id="47313346908350658223_ET"></span></div></div></div>
+</div><div class="row ">
+<div class="col col-2  col-start"><span class="apex-grid-nbsp">&nbsp;</span></div><div class="col col-3  "><div class="t-Form-fieldContainer t-Form-fieldContainer--floatingLabel lto47312485887021252219_0 apex-item-wrapper apex-item-wrapper--text-field js-show-label" id="P1_MOSTAWA_CONTAINER"><div class="t-Form-labelContainer">
+<label for="P1_MOSTAWA" id="P1_MOSTAWA_LABEL" class="t-Form-label">المستوى</label>
+</div><div class="t-Form-inputContainer"><div class="t-Form-itemWrapper"><input type="text" id="P1_MOSTAWA" name="P1_MOSTAWA" class="text_field apex-item-text" value="" size="30"></div><span id="P1_MOSTAWA_error_placeholder" class="a-Form-error" data-template-id="47313346908350658223_ET"></span></div></div></div><div class="col col-1  "><span class="apex-grid-nbsp">&nbsp;</span></div><div class="col col-3  "><div class="t-Form-fieldContainer t-Form-fieldContainer--floatingLabel lto47312486043184252220_0 apex-item-wrapper apex-item-wrapper--text-field js-show-label" id="P1_DEP_CONTAINER"><div class="t-Form-labelContainer">
+<label for="P1_DEP" id="P1_DEP_LABEL" class="t-Form-label">الادارة</label>
+</div><div class="t-Form-inputContainer"><div class="t-Form-itemWrapper"><input type="text" id="P1_DEP" name="P1_DEP" class="text_field apex-item-text" value="" size="30"></div><span id="P1_DEP_error_placeholder" class="a-Form-error" data-template-id="47313346908350658223_ET"></span></div></div></div>
+</div><div class="row ">
+<div class="col col-2  col-start"><span class="apex-grid-nbsp">&nbsp;</span></div><div class="col col-3  "><div class="t-Form-fieldContainer t-Form-fieldContainer--floatingLabel lto47312486216295252222_0 apex-item-wrapper apex-item-wrapper--text-field js-show-label" id="P1_MOB_CONTAINER"><div class="t-Form-labelContainer">
+<label for="P1_MOB" id="P1_MOB_LABEL" class="t-Form-label">الموبايل</label>
+</div><div class="t-Form-inputContainer"><div class="t-Form-itemWrapper"><input type="text" id="P1_MOB" name="P1_MOB" class="text_field apex-item-text" value="" size="30"></div><span id="P1_MOB_error_placeholder" class="a-Form-error" data-template-id="47313346908350658223_ET"></span></div></div></div><div class="col col-1  "><span class="apex-grid-nbsp">&nbsp;</span></div><div class="col col-3  "><div class="t-Form-fieldContainer t-Form-fieldContainer--floatingLabel lto47312486157792252221_0 apex-item-wrapper apex-item-wrapper--text-field js-show-label" id="P1_ADDRESS_CONTAINER"><div class="t-Form-labelContainer">
+<label for="P1_ADDRESS" id="P1_ADDRESS_LABEL" class="t-Form-label">العنوان</label>
+</div><div class="t-Form-inputContainer"><div class="t-Form-itemWrapper"><input type="text" id="P1_ADDRESS" name="P1_ADDRESS" class="text_field apex-item-text" value="" size="30"></div><span id="P1_ADDRESS_error_placeholder" class="a-Form-error" data-template-id="47313346908350658223_ET"></span></div></div></div>
+</div><div class="row ">
+<div class="col col-1  col-start"><span class="apex-grid-nbsp">&nbsp;</span></div><div class="col col-3  "><div class="t-Form-fieldContainer t-Form-fieldContainer--floatingLabel lto47312486344347252223_0 apex-item-wrapper apex-item-wrapper--select-list" id="P1_KIND_HOLDAY_CONTAINER"><div class="t-Form-labelContainer">
+<label for="P1_KIND_HOLDAY" id="P1_KIND_HOLDAY_LABEL" class="t-Form-label">نوع الاجازة</label>
+</div><div class="t-Form-inputContainer"><div class="t-Form-itemWrapper"><select id="P1_KIND_HOLDAY" name="P1_KIND_HOLDAY" class="selectlist apex-item-select" data-native-menu="false" size="1"><option value="" selected="selected"></option>
+<option value="اعتيادي">اعتيادي</option>
+<option value="عارضة">عارضة</option>
+<option value="تصريح">تصريح</option>
+</select></div><span id="P1_KIND_HOLDAY_error_placeholder" class="a-Form-error" data-template-id="47313346908350658223_ET"></span></div></div></div><div class="col col-3  "><div class="t-Form-fieldContainer t-Form-fieldContainer--floatingLabel lto47316082498383962152_0 apex-item-wrapper apex-item-wrapper--select-list" id="P1_CLOCK_CONTAINER" style="display: none;"><div class="t-Form-labelContainer">
+<label for="P1_CLOCK" id="P1_CLOCK_LABEL" class="t-Form-label">اختار عدد الساعات</label>
+</div><div class="t-Form-inputContainer"><div class="t-Form-itemWrapper"><select id="P1_CLOCK" name="P1_CLOCK" class="selectlist apex-item-select" data-native-menu="false" size="1"><option value="" selected="selected"></option>
+<option value="1">ساعة</option>
+<option value="2">ساعتان</option>
+</select></div><span id="P1_CLOCK_error_placeholder" class="a-Form-error" data-template-id="47313346908350658223_ET"></span></div></div></div><div class="col col-3  "><div class="t-Form-fieldContainer t-Form-fieldContainer--floatingLabel lto47312486388500252224_0 apex-item-wrapper apex-item-wrapper--select-list" id="P1_SUB_CONTAINER" style="display: none;"><div class="t-Form-labelContainer">
+<label for="P1_SUB" id="P1_SUB_LABEL" class="t-Form-label">القائم بالعمل</label>
+</div><div class="t-Form-inputContainer"><div class="t-Form-itemWrapper"><select id="P1_SUB" name="P1_SUB" class="selectlist apex-item-select" data-native-menu="false" size="1"><option value="" selected="selected"></option>
+<option value="عاطف خليفة راوى عمران">عاطف خليفة راوى عمران</option><option value="إبراهيم عبد العزيز قطب جوهر">إبراهيم عبد العزيز قطب جوهر</option><option value="إسلام سمير طه يونس">إسلام سمير طه يونس</option><option value="رحاب سامي السيد">رحاب سامي السيد</option><option value="اسلام محمد محمود الدهشان">اسلام محمد محمود الدهشان</option><option value="محمود احمد موسى احمد">محمود احمد موسى احمد</option></select></div><span id="P1_SUB_error_placeholder" class="a-Form-error" data-template-id="47313346908350658223_ET"></span></div></div></div>
+</div><div class="row ">
+<div class="col col-1  col-start"><span class="apex-grid-nbsp">&nbsp;</span></div><div class="col col-3  "><div class="t-Form-fieldContainer t-Form-fieldContainer--floatingLabel is-required t-Form-fieldContainer--indicatorAsterisk lto47312486690143252227_0 apex-item-wrapper apex-item-wrapper--date-picker-apex apex-item-wrapper--date-picker-apex-popup" id="P1_DATE_NOW_CONTAINER"><div class="t-Form-labelContainer">
+  <label for="P1_DATE_NOW" id="P1_DATE_NOW_LABEL" class="t-Form-label">تحريرا في  <span class="u-VisuallyHidden">(Value Required)</span></label>
+</div><div class="t-Form-inputContainer">
+  <div class="t-Form-itemRequired-marker" aria-hidden="true"></div>
+  <div class="t-Form-itemWrapper"><a-date-picker id="P1_DATE_NOW" change-month="true" change-year="true" display-as="popup" display-weeks="none" format="YYYY/MM/DD" previous-next-distance="one-month" show-days-outside-month="visible" show-on="focus" show-time="false" time-increment-minute="15" today-button="false" valid-example="2023/08/04" year-selection-range="5" class="apex-item-datepicker--popup" value=""><input aria-haspopup="dialog" class="apex-item-text apex-item-datepicker" name="P1_DATE_NOW" size="30" type="text" id="P1_DATE_NOW_input" aria-labelledby="P1_DATE_NOW_LABEL"><button aria-haspopup="dialog" aria-label="Select Date" class="a-Button a-Button--calendar" tabindex="-1" title="Select Date" type="button" aria-describedby="P1_DATE_NOW_LABEL" aria-controls="P1_DATE_NOW_input"><span class="a-Icon icon-calendar"></span></button></a-date-picker>
+  </div>
+  <div class="t-Form-itemAssistance">
+    <span id="P1_DATE_NOW_error_placeholder" class="a-Form-error" data-template-id="47313348258573658228_ET"></span>
+    <div class="t-Form-itemRequired" aria-hidden="true">Required</div>
+  </div>
+  
+</div></div></div><div class="col col-3  "><div class="t-Form-fieldContainer t-Form-fieldContainer--floatingLabel lto47312486479767252225_0 apex-item-wrapper apex-item-wrapper--date-picker-apex apex-item-wrapper--date-picker-apex-popup" id="P1_DATA_FROM_CONTAINER"><div class="t-Form-labelContainer">
+<label for="P1_DATA_FROM" id="P1_DATA_FROM_LABEL" class="t-Form-label">التاريخ من </label>
+</div><div class="t-Form-inputContainer"><div class="t-Form-itemWrapper"><a-date-picker id="P1_DATA_FROM" change-month="true" change-year="true" display-as="popup" display-weeks="none" format="YYYY/MM/DD" previous-next-distance="one-month" show-days-outside-month="visible" show-on="focus" show-time="false" time-increment-minute="15" today-button="false" valid-example="2023/08/04" year-selection-range="5" class="apex-item-datepicker--popup" value=""><input aria-haspopup="dialog" class="apex-item-text apex-item-datepicker" name="P1_DATA_FROM" size="30" type="text" id="P1_DATA_FROM_input" aria-labelledby="P1_DATA_FROM_LABEL"><button aria-haspopup="dialog" aria-label="Select Date" class="a-Button a-Button--calendar" tabindex="-1" title="Select Date" type="button" aria-describedby="P1_DATA_FROM_LABEL" aria-controls="P1_DATA_FROM_input"><span class="a-Icon icon-calendar"></span></button></a-date-picker></div><span id="P1_DATA_FROM_error_placeholder" class="a-Form-error" data-template-id="47313346908350658223_ET"></span></div></div></div><div class="col col-3  "><div class="t-Form-fieldContainer t-Form-fieldContainer--floatingLabel lto47312486658196252226_0 apex-item-wrapper apex-item-wrapper--date-picker-apex apex-item-wrapper--date-picker-apex-popup" id="P1_DATE_TO_CONTAINER"><div class="t-Form-labelContainer">
+<label for="P1_DATE_TO" id="P1_DATE_TO_LABEL" class="t-Form-label">التاريخ الى </label>
+</div><div class="t-Form-inputContainer"><div class="t-Form-itemWrapper"><a-date-picker id="P1_DATE_TO" change-month="true" change-year="true" display-as="popup" display-weeks="none" format="YYYY/MM/DD" previous-next-distance="one-month" show-days-outside-month="visible" show-on="focus" show-time="false" time-increment-minute="15" today-button="false" valid-example="2023/08/04" year-selection-range="5" class="apex-item-datepicker--popup" value=""><input aria-haspopup="dialog" class="apex-item-text apex-item-datepicker" name="P1_DATE_TO" size="30" type="text" id="P1_DATE_TO_input" aria-labelledby="P1_DATE_TO_LABEL"><button aria-haspopup="dialog" aria-label="Select Date" class="a-Button a-Button--calendar" tabindex="-1" title="Select Date" type="button" aria-describedby="P1_DATE_TO_LABEL" aria-controls="P1_DATE_TO_input"><span class="a-Icon icon-calendar"></span></button></a-date-picker></div><span id="P1_DATE_TO_error_placeholder" class="a-Form-error" data-template-id="47313346908350658223_ET"></span></div></div><input type="hidden" name="P1_MARK" id="P1_MARK" value=""><input type="hidden" data-for="P1_MARK" value="2asMnK-xR-gcTd0T6zkxR7dC3PF6jy6MV3c8sTtSDdp5jxY11KQ2WgPe-Ida2of9Hzw21GsMuOh8vyBRV1G90w"></div>
+</div>
+</div>
+     
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+</div>
+</div><div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end"><div class="t-Region t-Region--scrollBody lto47314292298910883916_0 js-apex-region" id="R47314292298910883916" role="region" aria-label="الاجازات الاعتيادية" aria-live="polite">
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    <h2 class="t-Region-title" id="R47314292298910883916_heading" data-apex-heading="">الاجازات الاعتيادية</h2>
+  </div>
+  <div class="t-Region-headerItems t-Region-headerItems--buttons"><span class="js-maximizeButtonContainer"></span></div>
+ </div>
+ <div class="t-Region-bodyWrap">
+   <div class="t-Region-buttons t-Region-buttons--top">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+   <div class="t-Region-body">
+     
+     <div id="report_47314292298910883916_catch"><div class="t-Report t-Report--stretch t-Report--altRowsDefault t-Report--rowHighlight lto47314292298910883916_1" id="report_R47314292298910883916" data-region-id="R47314292298910883916">
+  <div class="t-Report-wrap">
+    <table class="t-Report-pagination" role="presentation"><tbody><tr><td></td></tr></tbody></table>
+    <div class="t-Report-tableWrap">
+    <table class="t-Report-report" id="report_table_R47314292298910883916" aria-label="الاجازات الاعتيادية">
+<thead><tr><th class="t-Report-colHead" align="center" id="DERIVED$01">حذف الاجازة</th><th class="t-Report-colHead" align="center" id="EMP_ID"><div class="u-Report-sort"><span class="u-Report-sortHeading"><a href="https://apex.oracle.com/pls/apex/#" id="R47314292298910883916_1" title="Sort by this column" onclick="apex.widget.report.sort(this,&#39;&#39;,&#39;fsp_sort_1&#39;)">رقم السجل</a></span></div></th><th class="t-Report-colHead" align="center" id="EMP_NAME"><div class="u-Report-sort"><span class="u-Report-sortHeading"><a href="https://apex.oracle.com/pls/apex/#" id="R47314292298910883916_2" title="Sort by this column" onclick="apex.widget.report.sort(this,&#39;&#39;,&#39;fsp_sort_2&#39;)">الاسم</a></span></div></th><th class="t-Report-colHead" align="center" id="JOB"><div class="u-Report-sort"><span class="u-Report-sortHeading"><a href="https://apex.oracle.com/pls/apex/#" id="R47314292298910883916_3" title="Sort by this column" onclick="apex.widget.report.sort(this,&#39;&#39;,&#39;fsp_sort_3&#39;)">الوظيفة</a></span></div></th><th class="t-Report-colHead" align="center" id="MOSTAWA"><div class="u-Report-sort"><span class="u-Report-sortHeading"><a href="https://apex.oracle.com/pls/apex/#" id="R47314292298910883916_4" title="Sort by this column" onclick="apex.widget.report.sort(this,&#39;&#39;,&#39;fsp_sort_4&#39;)">المستوى</a></span></div></th><th class="t-Report-colHead" align="center" id="DEP"><div class="u-Report-sort"><span class="u-Report-sortHeading"><a href="https://apex.oracle.com/pls/apex/#" id="R47314292298910883916_5" title="Sort by this column" onclick="apex.widget.report.sort(this,&#39;&#39;,&#39;fsp_sort_5&#39;)">الادارة</a></span></div></th><th class="t-Report-colHead" align="center" id="ADDRESS"><div class="u-Report-sort"><span class="u-Report-sortHeading"><a href="https://apex.oracle.com/pls/apex/#" id="R47314292298910883916_6" title="Sort by this column" onclick="apex.widget.report.sort(this,&#39;&#39;,&#39;fsp_sort_6&#39;)">العنوان</a></span></div></th><th class="t-Report-colHead" align="center" id="MOB"><div class="u-Report-sort"><span class="u-Report-sortHeading"><a href="https://apex.oracle.com/pls/apex/#" id="R47314292298910883916_7" title="Sort by this column" onclick="apex.widget.report.sort(this,&#39;&#39;,&#39;fsp_sort_7&#39;)">الموبايل</a></span></div></th><th class="t-Report-colHead" align="center" id="KIND_HOLDAY"><div class="u-Report-sort"><span class="u-Report-sortHeading"><a href="https://apex.oracle.com/pls/apex/#" id="R47314292298910883916_8" title="Sort by this column" onclick="apex.widget.report.sort(this,&#39;&#39;,&#39;fsp_sort_8&#39;)">نوع الاجازة</a></span></div></th><th class="t-Report-colHead" align="center" id="SUB"><div class="u-Report-sort"><span class="u-Report-sortHeading"><a href="https://apex.oracle.com/pls/apex/#" id="R47314292298910883916_9" title="Sort by this column" onclick="apex.widget.report.sort(this,&#39;&#39;,&#39;fsp_sort_9&#39;)">قائم بالعمل</a></span></div></th><th class="t-Report-colHead" align="center" id="DATA_FROM"><div class="u-Report-sort"><span class="u-Report-sortHeading"><a href="https://apex.oracle.com/pls/apex/#" id="R47314292298910883916_10" title="Sort by this column" onclick="apex.widget.report.sort(this,&#39;&#39;,&#39;fsp_sort_10&#39;)">التاريخ من </a></span></div></th><th class="t-Report-colHead" align="center" id="DATA_TO"><div class="u-Report-sort"><span class="u-Report-sortHeading"><a href="https://apex.oracle.com/pls/apex/#" id="R47314292298910883916_11" title="Sort by this column" onclick="apex.widget.report.sort(this,&#39;&#39;,&#39;fsp_sort_11&#39;)">التاريخ الى </a></span></div></th><th class="t-Report-colHead" align="center" id="DATA_NOW"><div class="u-Report-sort"><span class="u-Report-sortHeading"><a href="https://apex.oracle.com/pls/apex/#" id="R47314292298910883916_12" title="Sort by this column" onclick="apex.widget.report.sort(this,&#39;&#39;,&#39;fsp_sort_12&#39;)">التاريخ الحالي</a></span></div></th></tr></thead>
+<tbody>
+<tr><td class="t-Report-cell" align="center" headers="DERIVED$01"><a href="javascript:apex.theme42.dialog(&#39;\u002Fpls\u002Fapex\u002Fr\u002Fmbank\u002Fholdy-daf-new\u002Fdelete-rec?p5_id=121\u0026clear=5\u0026session=6349469537223\u0026cs=1iYfl2djb1Mi1tX8Yk46d_DRLGDNR3_77fKTKqZwCzuwndKY6NEF6buGTs_t5eL_-rtYzoBW9p_RpL6IoZvV_zw\u0026dialogCs=-M7lnqUy_hQ5yISRlAUm1H_h33JTJWQOKRV5GLdatBhukIsFaXnA1XuHJRnE9RBcQg4Dep5sR0NGNYJRC7Kx5Q&#39;,{title:&#39;\u0631\u0633\u0627\u0644\u0629 \u062D\u0630\u0641&#39;,h:&#39;250&#39;,w:&#39;400&#39;,mxw:&#39;960&#39;,modal:true,dialog:null,dlgCls:&#39;t-Dialog-page--standard &#39;+&#39;&#39;},&#39;&#39;,&#39;#R47314292298910883916&#39;)"><img src="./Holdy_Daf_files/apex-edit-pencil-alt.png" class="apex-edit-pencil-alt" alt=""></a></td><td class="t-Report-cell" headers="EMP_ID">288358</td><td class="t-Report-cell" headers="EMP_NAME"><a href="javascript:apex.theme42.dialog(&#39;\u002Fpls\u002Fapex\u002Fr\u002Fmbank\u002Fholdy-daf-new\u002Fprintt?p3_id=121\u0026clear=3\u0026session=6349469537223\u0026cs=1QjAPHDM9GME6D-8ddLUulqQ6eudUKnzZ8EmSTZffr2tVjxU8ze_OsMAA_QFbNDnh_ZMNCbnDuXp0baUTNdKEEA\u0026dialogCs=nvTzvHbR_g93qItvkK_RQENlVz9MOOis8AdJY1HdOT1Oo0WRWcQ2dj_kaBCRxUp4-Zoekj30Qq5KK6nIfs_GmQ&#39;,{title:&#39;\u0634\u0627\u0634\u0629 \u0627\u0644\u0637\u0628\u0627\u0639\u0629&#39;,h:&#39;auto&#39;,w:&#39;720&#39;,mxw:&#39;960&#39;,modal:true,dialog:null,dlgCls:&#39;t-Dialog-page--standard &#39;+&#39;&#39;},&#39;&#39;,&#39;#R47314292298910883916&#39;)">احمد عبد العزيز سيد مهدى</a></td><td class="t-Report-cell" headers="JOB">مدير الإدارة</td><td class="t-Report-cell" headers="MOSTAWA">الأولى</td><td class="t-Report-cell" headers="DEP">الدفع الإلكتروني</td><td class="t-Report-cell" headers="ADDRESS">المعادي</td><td class="t-Report-cell" headers="MOB">0</td><td class="t-Report-cell" headers="KIND_HOLDAY">اعتيادي</td><td class="t-Report-cell" headers="SUB">عاطف خليفة راوى عمران</td><td class="t-Report-cell" headers="DATA_FROM">2023/07/02</td><td class="t-Report-cell" headers="DATA_TO">2023/07/02</td><td class="t-Report-cell" headers="DATA_NOW">2023/07/01</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="t-Report-links"></div>
+    <table class="t-Report-pagination t-Report-pagination--bottom" role="presentation"><tbody><tr><td colspan="14" align="right"><table role="presentation"><tbody><tr><td class="pagination"></td><td class="pagination"></td><td nowrap="nowrap" class="pagination"><span class="t-Report-paginationText">1 - 1</span></td><td class="pagination"></td><td class="pagination"></td></tr></tbody></table></td></tr></tbody></table>
+  </div>
+</div></div>
+     
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+</div>
+</div><div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end"><div class="t-Region t-Region--scrollBody lto47314296508257883958_0 js-apex-region" id="R47314296508257883958" role="region" aria-label="الاجازات العارضة" aria-live="polite">
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    <h2 class="t-Region-title" id="R47314296508257883958_heading" data-apex-heading="">الاجازات العارضة</h2>
+  </div>
+  <div class="t-Region-headerItems t-Region-headerItems--buttons"><span class="js-maximizeButtonContainer"></span></div>
+ </div>
+ <div class="t-Region-bodyWrap">
+   <div class="t-Region-buttons t-Region-buttons--top">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+   <div class="t-Region-body">
+     
+     <div id="report_47314296508257883958_catch"><span class="nodatafound">لا توجد اجازات تم تسجيلها من قبل</span>
+</div>
+     
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+</div>
+</div><div class="row ">
+<div class="col col-12 apex-col-auto col-start col-end"><div class="t-Region t-Region--scrollBody lto47316079481106962122_0 js-apex-region" id="R47316079481106962122" role="region" aria-label="التصريح" aria-live="polite">
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    <h2 class="t-Region-title" id="R47316079481106962122_heading" data-apex-heading="">التصريح</h2>
+  </div>
+  <div class="t-Region-headerItems t-Region-headerItems--buttons"><span class="js-maximizeButtonContainer"></span></div>
+ </div>
+ <div class="t-Region-bodyWrap">
+   <div class="t-Region-buttons t-Region-buttons--top">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+   <div class="t-Region-body">
+     
+     <div id="report_47316079481106962122_catch"><span class="nodatafound">لا توجد اجازات تم تسجيلها من قبل</span>
+</div>
+     
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</div></div>
+      </main>
+      <footer class="t-Footer" id="t_Footer" role="contentinfo">
+        <div class="t-Footer-body">
+          <div class="t-Footer-content"></div>
+          <div class="t-Footer-apex">
+            <div class="t-Footer-version">Release 1.0</div>
+            <div class="t-Footer-customize"></div>
+            
+          </div>
+        </div>
+        <div class="t-Footer-top">
+          <a href="https://apex.oracle.com/pls/apex/#top" class="t-Footer-topButton" id="t_Footer_topButton" title="Start of page" aria-label="Start of page"><span class="a-Icon icon-up-chevron" aria-hidden="true"></span></a>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+<div class="t-Body-inlineDialogs" id="t_Body_inlineDialogs"></div><input type="hidden" id="pPageFormRegionChecksums" value="[]">
+<input type="hidden" id="pPageItemsRowVersion" value=""><input type="hidden" id="pPageItemsProtected" value="UDFfTkVXOlAxX01BUks/gOYKYBUPHtjYx-ChDH15FzvD-b58SAJpIAb6vZrb21e3fv5Hvh8kmo54bYmeEagPfnpMOLsV80Xmn3ArW18-vg"></form>
+<div id="apexDevToolbar" class="a-DevToolbar a-DevToolbar--bottom" style="white-space: normal; right: 310.5px; width: 728px;" role="region" aria-labelledby="apexDevToolbarHeading"><h1 id="apexDevToolbarHeading" class="u-vh">Developer Toolbar</h1><ul role="toolbar" aria-label="Developer" class="a-DevToolbar-list">
+<li role="none"><button type="button" class="a-Button a-Button--devToolbar" id="apexDevToolbarHome" title="Oracle APEX Home" aria-label="Oracle APEX Home" data-link="r/apex/workspace/home?session=4242815597863">
+<span class="a-Icon icon-home" aria-hidden="true"></span>
+</button></li>
+<li role="none"><button type="button" class="a-Button a-Button--devToolbar" id="apexDevToolbarApp" title="App 253158" aria-label="App 253158" data-link="r/apex/app-builder/home?fb_flow_id=253158&amp;fb_flow_page_id=1&amp;f4000_p1_flow=253158&amp;f4000_p1_page=1&amp;clear=1,RP&amp;session=4242815597863">
+<span class="a-Icon icon-edit-app" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">App 253158</span>
+</button></li>
+<li role="none"><button type="button" class="a-Button a-Button--devToolbar" id="apexDevToolbarPage" title="Page 1" aria-label="Page 1" data-link="r/apex/app-builder/page-designer?fb_flow_id=253158&amp;fb_flow_page_id=1&amp;f4000_p1_flow=253158&amp;f4000_p1_page=1&amp;clear=1&amp;session=4242815597863">
+<span class="a-Icon icon-edit-page-alt" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">Page 1</span>
+</button></li>
+<li role="none"><button type="button" class="a-Button a-Button--devToolbar" id="apexDevToolbarSession" title="Session" aria-label="Session" data-menu="apexDevToolbarSessionMenu" aria-haspopup="menu">
+<span class="a-Icon icon-page-session" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">Session</span><span class="a-DevToolbar-buttonTitle u-vh">Overrides Off</span><span class="a-DevToolbar-buttonToggle a-Icon icon-toggle-off" aria-hidden="true"></span>
+</button></li>
+<li role="none"><button type="button" class="a-Button a-Button--devToolbar" id="apexDevToolbarDebug" title="Debug" aria-label="Debug" data-menu="apexDevToolbarDebugMenu" aria-haspopup="menu">
+<span class="a-Icon icon-debug" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">Debug</span><span class="a-DevToolbar-buttonTitle u-vh">Current Debug Level: No Debug</span><span class="a-DevToolbar-buttonToggle a-Icon icon-toggle-off" aria-hidden="true"></span>
+</button></li>
+<li role="none"><button type="button" class="a-Button a-Button--devToolbar" id="apexDevToolbarQuickEdit" title="Quick Edit" aria-label="Quick Edit" data-link="r/apex/app-builder/page-designer?fb_flow_id=253158&amp;fb_flow_page_id=1&amp;f4000_p1_flow=253158&amp;f4000_p1_page=1&amp;clear=1,4500&amp;session=4242815597863">
+<span class="a-Icon icon-quick-edit" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">Quick Edit</span>
+</button></li>
+<li role="none"><button type="button" class="a-Button a-Button--devToolbar" id="apexDevCustomize" title="Customize" aria-label="Customize" data-menu="apexDevToolbarCustomizeMenu" aria-haspopup="menu">
+<span class="a-Icon icon-theme-roller" aria-hidden="true"></span>
+<span class="a-DevToolbar-buttonLabel">Customize</span>
+</button></li>
+<li role="none"><button type="button" class="a-Button a-Button--devToolbar" id="apexDevToolbarInfo" title="Info" aria-label="Info" data-menu="apexDevToolbarInfoMenu" aria-haspopup="menu">
+<span class="a-Icon icon-info" aria-hidden="true"></span>
+</button></li>
+<li role="none"><button type="button" class="a-Button a-Button--devToolbar" id="apexDevToolbarOptions" title="Developer Toolbar Options" aria-label="Developer Toolbar Options" data-menu="apexDevToolbarOptionsMenu" aria-haspopup="menu">
+<span class="a-Icon icon-gear" aria-hidden="true"></span>
+</button></li>
+</ul></div><div id="apexDevToolbarSessionOverridesContainer"></div><div id="apexDevToolbarThemeRollerContainer"></div><div id="apexDevToolbarLogoEditorContainer"></div><div id="apexDevToolbarIconEditorContainer"></div>
+
+
+<script>
+var apex_img_dir = "https:\u002F\u002Fstatic.oracle.com\u002Fcdn\u002Fapex\u002F23.1.1\u002F";
+var apex = {env: {APP_USER: "1",APP_ID: "253158",APP_PAGE_ID: "1",APP_SESSION: "6349469537223",APP_FILES: "r\u002Fmbank\u002F253158\u002Ffiles\u002Fstatic\u002Fv9\u002F",WORKSPACE_FILES: "r\u002Fmbank\u002Ffiles\u002Fstatic\u002Fv1\u002F",APEX_VERSION: "23.1.3",APEX_BASE_VERSION: "23.1"},
+libVersions:{ckeditor5:"36.0.0",cropperJs:"1.5.13",domPurify:"2.4.3",fullcalendar:"5.11.3",hammer:"2.0.8",jquery:"3.6.4",jqueryUi:"1.13.2",maplibre:"2.4.0",markedJs:"4.2.5",prismJs:"1.29.0",oraclejet:"14.0.0",tinymce:"6.3.1",turndown:"7.1.1",monacoEditor:"0.32.1",lessJs:"4.1.3"}};
+</script>
+<script src="./Holdy_Daf_files/desktop_all.min.js.download"></script>
+<script src="./Holdy_Daf_files/wwv_flow.js_messages"></script>
+
+<script type="text/javascript">
+apex.da.initDaEventList = function(){
+apex.da.gEventList = [
+{"name":"checkClik","triggeringElementType":"BUTTON","triggeringButtonId":"B47312486880358252229","bindType":"bind","executionType":"IMMEDIATE","bindEventType":"click","anyActionsFireOnInit":false,actionList:[{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"waitForResult":true,javascriptFunction:apex.da.executePlSqlCode,"ajaxIdentifier":"REEgVFlQRX5-NDczMTQyOTE1ODgzODE4ODM5MDk\u002FhJSL0bxeNQyvxENkemG4iS804nM5kBpYLl5-zODBa3pY--wN734OB5V1getZzIAI396pgADzl2dyS1df5rZpJA","attribute01":"#P1_EMP_ID","attribute02":"#P1_EMP_NAME,#P1_JOB,#P1_DEP,#P1_MOSTAWA,#P1_MOB,#P1_ADDRESS,#P1_NEW,#P1_DATE_TO,#P1_DATA_FROM,#P1_DATE_NOW,#P1_SUB,#P1_KIND_HOLDAY","attribute04":"N","action":"NATIVE_EXECUTE_PLSQL_CODE"}]},
+{"name":"New","triggeringElementType":"BUTTON","triggeringButtonId":"B47312486880358252229","bindType":"bind","executionType":"IMMEDIATE","bindEventType":"click","anyActionsFireOnInit":true,actionList:[{"eventResult":true,"executeOnPageInit":true,"stopExecutionOnError":true,"affectedElementsType":"ITEM","affectedElements":"P1_EMP_ID",javascriptFunction:apex.da.setFocus,"action":"NATIVE_SET_FOCUS"}]},
+{"name":"New_1","triggeringElementType":"BUTTON","triggeringButtonId":"B47312486880358252229","bindType":"bind","executionType":"IMMEDIATE","bindEventType":"click","anyActionsFireOnInit":false,actionList:[{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"REGION","affectedRegionId":"R47314292298910883916",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"},{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"REGION","affectedRegionId":"R47314296508257883958",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"},{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"REGION","affectedRegionId":"R47316079481106962122",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"}]},
+{"name":"New_2","executionType":"IMMEDIATE","bindEventType":"ready","anyActionsFireOnInit":false,actionList:[{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"REGION","affectedRegionId":"R47312485487334252215",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"}]},
+{"name":"New_3","triggeringElementType":"BUTTON","triggeringButtonId":"B47312486880358252229","bindType":"bind","executionType":"IMMEDIATE","bindEventType":"click","anyActionsFireOnInit":false,actionList:[{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"ITEM","affectedElements":"P1_SUB",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"}]},
+{"name":"CHeck_Etidy","triggeringElementType":"ITEM","triggeringElement":"P1_KIND_HOLDAY","conditionElement":"P1_KIND_HOLDAY","triggeringConditionType":"EQUALS","triggeringConditionExpression":"\u0627\u0639\u062A\u064A\u0627\u062F\u064A","bindType":"bind","executionType":"IMMEDIATE","bindEventType":"change","anyActionsFireOnInit":true,actionList:[{"eventResult":false,"executeOnPageInit":true,"stopExecutionOnError":true,"affectedElementsType":"ITEM","affectedElements":"P1_SUB,P1_CLOCK",javascriptFunction:apex.da.hide,"action":"NATIVE_HIDE"},{"eventResult":true,"executeOnPageInit":true,"stopExecutionOnError":true,"affectedElementsType":"ITEM","affectedElements":"P1_SUB,P1_CLOCK",javascriptFunction:apex.da.show,"action":"NATIVE_SHOW"}]},
+{"name":"CHeck_Etidy_1","triggeringElementType":"ITEM","triggeringElement":"P1_KIND_HOLDAY","conditionElement":"P1_KIND_HOLDAY","triggeringConditionType":"EQUALS","triggeringConditionExpression":"\u062A\u0635\u0631\u064A\u062D","bindType":"bind","executionType":"IMMEDIATE","bindEventType":"change","anyActionsFireOnInit":true,actionList:[{"eventResult":false,"executeOnPageInit":true,"stopExecutionOnError":true,"affectedElementsType":"ITEM","affectedElements":"P1_CLOCK",javascriptFunction:apex.da.hide,"action":"NATIVE_HIDE"},{"eventResult":true,"executeOnPageInit":true,"stopExecutionOnError":true,"affectedElementsType":"ITEM","affectedElements":"P1_CLOCK",javascriptFunction:apex.da.show,"action":"NATIVE_SHOW"}]},
+{"name":"RefresheHr","triggeringElementType":"REGION","triggeringRegionId":"R47314296508257883958","bindType":"bind","executionType":"IMMEDIATE","bindEventType":"apexafterclosedialog","anyActionsFireOnInit":false,actionList:[{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"REGION","affectedRegionId":"R47314296508257883958",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"}]},
+{"name":"RefresheEtd","triggeringElementType":"REGION","triggeringRegionId":"R47314292298910883916","bindType":"bind","executionType":"IMMEDIATE","bindEventType":"apexafterclosedialog","anyActionsFireOnInit":false,actionList:[{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"REGION","affectedRegionId":"R47314292298910883916",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"}]},
+{"name":"RefresheTas","triggeringElementType":"REGION","triggeringRegionId":"R47316079481106962122","bindType":"bind","executionType":"IMMEDIATE","bindEventType":"apexafterclosedialog","anyActionsFireOnInit":false,actionList:[{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"REGION","affectedRegionId":"R47316079481106962122",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"}]}];
+}
+</script>
+
+<script src="./Holdy_Daf_files/widget.stickyWidget.min.js.download"></script>
+<script src="./Holdy_Daf_files/theme42.min.js.download"></script>
+
+
+
+  
+
+
+<script src="./Holdy_Daf_files/widget.treeView.min.js.download"></script>
+<script src="./Holdy_Daf_files/widget.report.min.js.download"></script>
+<script src="./Holdy_Daf_files/devToolbar.min.js.download"></script>
+
+
+<script type="text/javascript">
+apex.session.initTimeouts(180,{"idle_time_ms":7199000,"life_time_ms":43182000,"max_idle_time_ms":7200000},'\u002Fpls\u002Fapex\u002Fr\u002Fmbank\u002Fholdy-daf-new\u002Fhome','\u002Fpls\u002Fapex\u002Fr\u002Fmbank\u002Fholdy-daf-new\u002Fhome');
+apex.jQuery( function() {
+apex.page.init( this, function() {
+try {
+(function(){apex.jQuery('body').addClass('t-PageBody--leftNav');})();
+(function(){apex.widget.selectList("#P1_EMP_ID",{"nullValue":"","ajaxIdentifier":"SVRFTSBUWVBFfjUxMjB-NDczMTI0ODU2MjUwNDIyNTIyMTY\u002FM5yRTG3b33LJfRfeAZKc_HsUQo-UKIT0Ncu1oxMQKJRZqet6xCJBgZknTcZTmeiunQQVpMtY1pUQ9-K9sk8npQ"});})();
+(function(){apex.widget.selectList("#P1_KIND_HOLDAY",{"nullValue":"","ajaxIdentifier":"SVRFTSBUWVBFfjUxMjB-NDczMTI0ODYzNDQzNDcyNTIyMjM\u002Fh7p3tyiSv3N7cspz6grqti_musDqhypNxYQu4fBtbizzE2RO2kmAz1GlDQ6TpuKAgtcVBBgwIYI0ssoknPa_eg"});})();
+(function(){apex.widget.selectList("#P1_CLOCK",{"nullValue":"","ajaxIdentifier":"SVRFTSBUWVBFfjUxMjB-NDczMTYwODI0OTgzODM5NjIxNTI\u002FX5imIJbNG7tJ0Wq0omY58Oxq-L6hwMrQlT-KXtDUZl2rIEv4xF_xxIWb3fjxzDWNOSpPa2rh30cB3pFoPCmnDw"});})();
+(function(){apex.widget.selectList("#P1_SUB",{"nullValue":"","ajaxIdentifier":"SVRFTSBUWVBFfjUxMjB-NDczMTI0ODYzODg1MDAyNTIyMjQ\u002FxfdP37ESwHy86FHbA6T4lg10qCMP5ZGuytyyP3CWB_yLixaCzOIPThM0esvMrz69vMQgaqGXz9pFQSnx85WQbQ"});})();
+(function(){apex.widget.report.init("R47314292298910883916","UkVHSU9OIFRZUEV-fjQ3MzE0MjkyMjk4OTEwODgzOTE2\u002Ff5U2B2yOyNcjyLgbNXv5q4eLPKJAIn_1ldmir6igeVS9flxtkq906ipa5yEzFizn4Hq6jgBI8MCKR4ywM3ulhA",{"pageItems":"#P1_EMP_ID","lazyLoading":true,"internalRegionId":"47314292298910883916"});})();
+(function(){apex.widget.report.init("R47314296508257883958","UkVHSU9OIFRZUEV-fjQ3MzE0Mjk2NTA4MjU3ODgzOTU4\u002FHnB1NliB6En0-BUhuX_Mp6X1jPUz0wc_2pGT0fUADbPmpuHS_qIVpW9KZOj8McZNQJ39li_6qeb5HchpFdfIdw",{"pageItems":"#P1_EMP_ID","lazyLoading":true,"internalRegionId":"47314296508257883958"});})();
+(function(){apex.widget.report.init("R47316079481106962122","UkVHSU9OIFRZUEV-fjQ3MzE2MDc5NDgxMTA2OTYyMTIy\u002FxqwpND9ePTV1sPJF0xgrfhGlMHcddURMIKlEnM0joSYAog8QWF7VXjE2Tvhfh4E1MY7Z_A-fvF1HHW9y9zvoxw",{"pageItems":"#P1_EMP_ID","lazyLoading":true,"internalRegionId":"47316079481106962122"});})();
+} catch(e) {apex.debug.error(e)};
+apex.initDevToolbar([{"pageId":"1","typeId":"5110","id":"47313385372252658526","domId":"R47313385372252658526"},{"pageId":"1","typeId":"5110","id":"47312485487334252215","domId":"R47312485487334252215"},{"pageId":"1","typeId":"5130","id":"47312486880358252229","domId":"B47312486880358252229"},{"pageId":"1","typeId":"5120","id":"47312485625042252216","domId":"P1_EMP_ID"},{"pageId":"1","typeId":"5120","id":"47312487476178252235","domId":"P1_NEW"},{"pageId":"1","typeId":"5130","id":"47312489251965252252","domId":"B47312489251965252252"},{"pageId":"1","typeId":"5120","id":"47312485671616252217","domId":"P1_EMP_NAME"},{"pageId":"1","typeId":"5120","id":"47312485844728252218","domId":"P1_JOB"},{"pageId":"1","typeId":"5120","id":"47312485887021252219","domId":"P1_MOSTAWA"},{"pageId":"1","typeId":"5120","id":"47312486043184252220","domId":"P1_DEP"},{"pageId":"1","typeId":"5120","id":"47312486216295252222","domId":"P1_MOB"},{"pageId":"1","typeId":"5120","id":"47312486157792252221","domId":"P1_ADDRESS"},{"pageId":"1","typeId":"5120","id":"47312486344347252223","domId":"P1_KIND_HOLDAY"},{"pageId":"1","typeId":"5120","id":"47316082498383962152","domId":"P1_CLOCK"},{"pageId":"1","typeId":"5120","id":"47312486388500252224","domId":"P1_SUB"},{"pageId":"1","typeId":"5120","id":"47312486690143252227","domId":"P1_DATE_NOW"},{"pageId":"1","typeId":"5120","id":"47312486479767252225","domId":"P1_DATA_FROM"},{"pageId":"1","typeId":"5120","id":"47312486658196252226","domId":"P1_DATE_TO"},{"pageId":"1","typeId":"5110","id":"47314292298910883916","domId":"R47314292298910883916"},{"pageId":"1","typeId":"5110","id":"47314296508257883958","domId":"R47314296508257883958"},{"pageId":"1","typeId":"5110","id":"47316079481106962122","domId":"R47316079481106962122"}],"FOCUS",{"viewSessionLabel":"View Session State","viewSessionUrl":"r\u002Fapex\u002Fapp-builder\u002Fsession-state?f4000_flow_session=6349469537223\u0026f4000_p34_flow=253158\u0026f4000_p34_page=1\u0026fb_flow_id=253158\u0026request=PAGE\u0026clear=34\u0026session=4242815597863","sessionOverridesLabel":"Session Overrides","sessionOverridesTitle":"Overrides Off","viewDebugLabel":"View Debug","viewDebugUrl":"r\u002Fapex\u002Fapp-builder\u002Fdebug-message-data?ir_application_id=253158\u0026ir_page_id=1\u0026f4000_flow_session=6349469537223\u0026fb_flow_id=253158\u0026f4000_p34_page=1\u0026clear=RIR,19\u0026session=4242815597863","enableDebugLabel":"Enable Debug","debugLevelTitle":"Current Debug Level: No Debug","debugLevelNo":"No Debug","debugLevel4":"Info (default)","debugLevel6":"App Trace","debugLevel9":"Full Trace","debugLevelNoUrl":"r\u002Fmbank\u002Fholdy-daf-new\u002Fhome?session=6349469537223","debugLevel4Url":"r\u002Fmbank\u002Fholdy-daf-new\u002Fhome?debug=YES\u0026session=6349469537223","debugLevel6Url":"r\u002Fmbank\u002Fholdy-daf-new\u002Fhome?debug=LEVEL6\u0026session=6349469537223","debugLevel9Url":"r\u002Fmbank\u002Fholdy-daf-new\u002Fhome?debug=LEVEL9\u0026session=6349469537223","autoHide":"Auto Hide","iconsOnly":"Show Icons Only","noBuilderMessage":"This functionality requires the Oracle APEX App Builder window to be open. Do you want to open the Builder in this window?","showPerf":"Show Page Timing","perfTitle":"Page Performance Timing","clear":"Clear","copy":"Copy","gridDebugOn":"Show Layout Columns","gridDebugOff":"Hide Layout Columns","landmarkDebugOn":"Hide Landmarks","landmarkDebugOff":"Show Landmarks","headingDebugOn":"Hide Headings","headingDebugOff":"Show Headings","logoEditor":"Edit Logo","themeRoller":"Theme Roller","display":"Display Position","displayTop":"Top","displayLeft":"Left","displayBottom":"Bottom","displayRight":"Right"},42);
+apex.item.waitForDelayLoadItems().done(function() {
+try {
+(function(){apex.da.initDaEventList();
+apex.da.init();})();
+apex.theme42.initializePage.noSideCol();
+
+apex.page.warnOnUnsavedChanges();
+} finally {
+apex.event.trigger(apex.gPageContext$,'apexreadyend');
+};
+});
+});
+});apex.pwa.init( { serviceWorkerPath:'\u002Fpls\u002Fapex\u002Fr\u002Fmbank\u002Fholdy-daf-new\u002Fsw.js?v=23.1.3-15486029284926\u0026lang=en' } );
+</script>
+
+
+
+<input id="apexCBMDummySelection" style="display:none;" value="x"><div id="pushModal" style="width: 100%; display:none; height: 100%;" class="u-DisplayNone u-Overlay--glass"></div><div id="apexDevToolbarCustomizeMenu" class="a-DevToolbar-menu u-RTL a-Menu" dir="rtl" role="menu" style="display: none;"></div><div id="apexDevToolbarSessionMenu" class="a-DevToolbar-menu u-RTL a-Menu" dir="rtl" role="menu" style="display: none;"></div><div id="apexDevToolbarDebugMenu" class="a-DevToolbar-menu u-RTL a-Menu" dir="rtl" role="menu" style="display: none;"></div><div id="apexDevToolbarInfoMenu" class="a-DevToolbar-menu u-RTL a-Menu" dir="rtl" role="menu" style="display: none;"></div><div id="apexDevToolbarOptionsMenu" class="a-DevToolbar-menu u-RTL a-Menu" dir="rtl" role="menu" style="display: none;"></div><div class="t-NavigationBar-menu u-RTL a-Menu" style="display: none" id="menu_L47313386040863658548" dir="rtl" role="menu"><ul><li class="" data-current="false" data-icon=""><a href="https://apex.oracle.com/pls/apex/separator" title="" target="">---</a></li><li class="" data-current="false" data-icon="fa fa-sign-out"><a href="https://apex.oracle.com/pls/apex/apex_authentication.logout?p_app_id=253158&amp;p_session_id=6349469537223" title="" target="">Sign Out</a></li></ul></div></body></html>
